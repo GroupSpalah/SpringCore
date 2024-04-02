@@ -7,8 +7,21 @@ public class TestViaXml {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        FileReader reader = context.getBean(FileReader.class);
+        /*FileReader reader1 = context.getBean("fileReader", FileReader.class);
 
-        reader.print();
+        reader1.setFileName("Poem.txt");
+
+        reader1.print();*/
+
+       /* FileReader reader2 = context.getBean("fileReaderNew", FileReader.class);
+
+        reader2.print();*/
+
+        ReaderService service = context.getBean(ReaderService.class);
+
+        service.getReader().print();
+
+        FileReader fileReader = new FileReader();
+
     }
 }
