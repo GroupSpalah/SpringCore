@@ -1,4 +1,4 @@
-package org.example.homeworks.Anton;
+package org.example.homeworks.Anton.hw_26_03;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
