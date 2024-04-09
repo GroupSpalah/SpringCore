@@ -1,4 +1,4 @@
-package org.example.homeworks.Anton.hw_02_04;
+package org.example.homeworks.anton.hw_02_04;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -6,10 +6,8 @@ import lombok.experimental.FieldDefaults;
 
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Geometry {
-
-    public void sinCosMethod(){
-        System.out.println("Sin");
-        System.out.println("Cos");
+public class Program {
+    public void bitMethod(){
+        System.out.println("8 -> 16");
     }
 }

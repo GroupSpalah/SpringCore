@@ -7,13 +7,13 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
- <bean name="base" class="org.example.homeworks.Anton.hw_02_04.Base" >
-     <constructor-arg name="math" ref="math"/>
-     <constructor-arg name="program" ref="program"/>
+    <bean name="base" class="org.example.homeworks.anton.hw_02_04.Base">
+        <constructor-arg name="math" ref="math"/>
+        <constructor-arg name="program" ref="program"/>
     </bean>
-    <bean name="math" class="org.example.homeworks.Anton.hw_02_04.Math" >
-     <constructor-arg name="geometry" ref="geometry"/>
 
+    <bean name="math" class="org.example.homeworks.anton.hw_02_04.Math">
+        <constructor-arg name="geometry" ref="geometry"/>
     </bean>
 
 </beans>
