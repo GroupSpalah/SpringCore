@@ -6,6 +6,9 @@
            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <bean name="geometry" class="org.example.homeworks.Anton.hw_02_04.Geometry" />
+    <bean name="program" class="org.example.homeworks.Anton.hw_02_04.Program" />
+
 
     <bean name="base" class="org.example.homeworks.anton.hw_02_04.Base">
         <constructor-arg name="math" ref="math"/>

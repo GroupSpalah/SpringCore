@@ -6,7 +6,8 @@ public class TestTree {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("treeAcontext.xml");
-TreeA treeA = context.getBean(TreeA.class);
+
+        TreeA treeA = context.getBean(TreeA.class);
 treeA.show();
     }
 }
