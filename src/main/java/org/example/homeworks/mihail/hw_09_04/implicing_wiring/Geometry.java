@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 public class Geometry{
     public void functionCos() {
         System.out.println("cos");
-
     }
 
     public void functionSin() {

@@ -10,7 +10,7 @@ public class Calculator {
     Math math;
 
     @Autowired
-@Qualifier(value = "base")
+    @Qualifier(value = "base")
     Calculateble calculateble;
 
   /*  @Autowired
