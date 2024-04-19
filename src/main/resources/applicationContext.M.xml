@@ -7,9 +7,41 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-    <bean name="three" class="org.example.homeworks.mihail.Three">
-        <constructor-arg name="age" value="10" />
-        <constructor-arg name="height" value="7.5" />
+<!--    <bean name="three" class="org.example.homeworks.mihail.hw_26_03.Three">-->
+<!--        <constructor-arg name="age" value="10" />-->
+<!--        <constructor-arg name="height" value="7.5" />-->
+<!--    </bean>-->
+
+<!--    <bean name="geometry" class="org.example.homeworks.mihail.hw_02_04.Geometry"/>-->
+<!--    <bean name="programmer" class="org.example.homeworks.mihail.hw_02_04.Programmer"/>-->
+
+<!--    <bean name="math" class="org.example.homeworks.mihail.hw_02_04.Math">-->
+<!--        <constructor-arg name="geometry" ref="geometry" />-->
+<!--    </bean>-->
+
+<!--    <bean name="base" class="org.example.homeworks.mihail.hw_02_04.Base">-->
+<!--    <constructor-arg name="programmer" ref="programmer" />-->
+<!--    <constructor-arg name="math" ref="math" />-->
+<!--    </bean>-->
+<!--    -->
+
+<!--    <bean name="geometry12" class="org.example.homeworks.mihail.hw_02_04.Geometry"/>-->
+<!--    <bean name="programmer33" class="org.example.homeworks.mihail.hw_02_04.Programmer"/>-->
+
+<!--    <bean name="math" class="org.example.homeworks.mihail.hw_02_04.Math" autowire="byType">-->
+<!--    </bean>-->
+
+<!--    <bean name="base" class="org.example.homeworks.mihail.hw_02_04.Base" autowire="byType">-->
+<!--    </bean>-->
+
+    <context:component-scan base-package="org.example.homeworks.mihail.hw_09_04" />
+
+    <bean name="geometry1" class="org.example.homeworks.mihail.hw_09_04.use_interface.Geometry1"/>
+    <bean name="programmer1" class="org.example.homeworks.mihail.hw_09_04.use_interface.Programmer1"/>
+
+    <bean name="math1" class="org.example.homeworks.mihail.hw_09_04.use_interface.Math1">
     </bean>
 
+    <bean name="base1" class="org.example.homeworks.mihail.hw_09_04.use_interface.Base1">
+    </bean>
 </beans>

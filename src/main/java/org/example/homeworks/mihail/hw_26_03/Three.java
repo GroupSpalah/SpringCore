@@ -1,4 +1,4 @@
-package org.example.homeworks.mihail;
+package org.example.homeworks.mihail.hw_26_03;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
