@@ -7,7 +7,8 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Program {
-    public void bitMethod(){
-        System.out.println("8 -> 16");
+
+    public void  bitMethod(){
+        System.out.println("From 8 to 16");
     }
 }
