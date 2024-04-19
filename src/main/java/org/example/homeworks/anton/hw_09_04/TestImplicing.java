@@ -13,6 +13,7 @@ public class TestImplicing {
        Base base = context.getBean(Base.class);
 
         Calculator calculator = context.getBean(Calculator.class);
-        calculator.calculateble.calculate();
+       /* calculator.calculateble.calculate();*/
+
     }
 }
