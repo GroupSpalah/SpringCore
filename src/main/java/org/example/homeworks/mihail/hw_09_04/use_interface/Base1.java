@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Base1 {
     @Autowired
     @Qualifier(value = "geometry1")
-    Action action;
+    Actionable action;
 
     public void calculatorPlusMinus() {
         System.out.println("+");
