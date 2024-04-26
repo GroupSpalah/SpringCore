@@ -6,9 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Calculator {
-    Base base;
-    Math math;
-
+Base base;
     @Autowired
     @Qualifier(value = "base")
     Calculateble calculateble;

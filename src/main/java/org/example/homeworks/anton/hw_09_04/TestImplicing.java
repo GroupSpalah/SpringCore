@@ -8,12 +8,8 @@ public class TestImplicing {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("AppContext.xml");
 
-       Program program = context.getBean(Program.class);
-       Math math = context.getBean(Math.class);
-       Base base = context.getBean(Base.class);
-
         Calculator calculator = context.getBean(Calculator.class);
-       /* calculator.calculateble.calculate();*/
+        calculator.calculateble.calculate();
 
     }
 }

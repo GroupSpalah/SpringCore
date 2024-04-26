@@ -10,15 +10,6 @@
     <context:component-scan base-package="org.example.homeworks.anton.hw_09_04" />
 
 
-  <!--  <bean name="geometry" class="org.example.homeworks.anton.hw_09_04.Geometry" />
-    <bean name="program" class="org.example.homeworks.anton.hw_09_04.Program" />
 
-    <bean name="base" class="org.example.homeworks.anton.hw_09_04.Base">
-        <constructor-arg name="math" ref="math"/>
-        <constructor-arg name="program" ref="program"/>
-    </bean>
-    <bean name="math" class="org.example.homeworks.anton.hw_09_04.Math">
-    <constructor-arg name="geometry" ref="geometry"/>
-    </bean>-->
 
 </beans>

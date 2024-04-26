@@ -6,8 +6,6 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class Math implements Calculateble {
-    Geometry geometry;
-
 
     @Override
     public void calculate() {
